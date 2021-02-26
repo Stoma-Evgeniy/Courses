@@ -35,6 +35,7 @@ namespace Courses
                 {
                     decimal procent2 = procent / 12;
                     decimal b = 1 + procent2;
+                    // b = Math.Pow(1 + procent2, 12);
                                       
                     decimal sumplatega = sum * (procent2 + procent2 / (b - 1));
 
